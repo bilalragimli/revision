@@ -1,0 +1,120 @@
+/* CSS Document */
+.all{
+    width: 60%;
+    margin:auto;
+}
+.logo {
+
+    color: #333333;
+    letter-spacing: -0.06em;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.logo span{
+    color: #fec901
+}
+.logo h1{
+margin: 0;
+font-size: 50px;
+}
+li {
+    display: inline;
+    padding: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+div.orta {
+    background-color: #fec901;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;    
+}
+div.orta div.ikinci {
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.clear{
+    clear: both;
+}
+.info{
+    display: flex;
+}
+.info .infoitem{
+    flex: 1;
+    padding: 15px;
+}
+.infoitem1{
+    flex: 1;
+    padding: 15px 0;
+}
+.infoitem1 span{
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
+span{
+    margin-right: 10px;
+}
+.infoitem span{
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+}
+span{
+    margin-right: 10px;
+}
+.info{
+    margin-top: 40px;
+}
+.blog{
+    display: flex;
+}
+img{
+    width: 100%;
+}
+.blogitem{
+    flex: 1;
+    margin: 8px;
+    position: relative
+}
+.blogitem img{
+    border-bottom: 3px solid #fec901;
+
+}
+.blog-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+    width: 100%;
+    background: #fec901;
+    opacity: .8;
+}
+.blogitem:hover .blog-box{
+    display: block;
+}
+.border{
+    display: flex;
+}
+.borders{
+    width: 90px;
+    height: 80px;
+    border: 0.5px solid;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    flex: 1;
+
+}
